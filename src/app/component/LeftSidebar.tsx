@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image";
-import Logo from "../asset/nodepay-icon.jpeg"
 import Link from 'next/link';
 import NodepayLogo from '../asset/node-logo.png'
 

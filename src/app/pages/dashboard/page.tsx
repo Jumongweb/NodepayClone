@@ -1,6 +1,5 @@
 import { url } from 'inspector'
 import React from 'react'
-import CurrentSeason from '../../component/CurrentSeason'
 
 const Dashboard = () => {
   return (
