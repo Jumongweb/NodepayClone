@@ -10,7 +10,7 @@ const Iman = () => {
   return (
     <>
         <div className='w-full items-center mt-4 flex justify-center'>
-            <input className='h-8 mt-4 rounded-lg w-1/3 text-black p-4' placeholder='Who does you Toheeb heart bleed for?' type="text" />
+            <input className='h-8 mt-4 rounded-lg w-1/3 text-black p-4' placeholder='Who does Toheeb heart bleed for?' type="text" />
         </div>
         <p className='text-4xl font-bold text-center mt-4 text-blue-700'>Happy new year in advance</p>
         <p className='text-4xl font-bold text-center text-blue-700'>I miss you</p>

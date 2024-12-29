@@ -3,14 +3,16 @@ import Dashboard from '../pages/dashboard/page'
 import CurrentSeason from './CurrentSeason'
 import Iman from './Iman'
 import Network from './Network'
-
+import Image from "next/image"
+import Logo from '../asset/node-logo.png'
 
 const RightSidebar = () => {
   return (
     <>
       <div className="bg-gray-200 w-full p-4">
-        <div className="flex justify-between items-center">
+        <div className="hidden sm:flex justify-between items-center mb-4">
           <p className="text-blue-700 text-4xl font-bold">Hello Princess Iman!</p>
+
           <button className="bg-yellow-300 p-4 rounded-lg font-bold">Check Airdrop</button>
         </div>
           <Dashboard/>
