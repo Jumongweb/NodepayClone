@@ -2,22 +2,22 @@ import React from 'react'
 
 const CurrentSeason = () => {
   return (
-    <div className='mt-4 flex gap-4'>
+    <div className='mt-4 sm:flex gap-4'>
         
-        <div className='bg-white w-2/3 border border-black p-4 rounded-lg'>
+        <div className='bg-white sm:w-2/3 border border-black p-4 rounded-lg'>
           
           <div>
             <div className='text-blue-700 rounded-lg text-2xl font-bold'>Current season: Season #2</div>
 
-            <div className='flex justify-between mt-4 gap-4'>
+            <div className='sm:flex justify-between mt-4 gap-4'>
 
-            <div className='bg-blue-900 p-4 rounded-lg w-1/2'>
+            <div className='bg-blue-900 p-4 rounded-lg sm:w-1/2'>
               <p className='text-white'>Icon</p>
               <p className='text-white mt-4'>Season Earnings</p>
               <p className='text-4xl text-white font-semibold mt-4'>1,253,900.23</p>
             </div>
 
-            <div className='border border-black p-4 rounded-lg w-1/2'>
+            <div className='border border-black p-4 rounded-lg sm:w-1/2'>
               <p className=''>Icon</p>
               <p className='mt-4'>Season Earnings</p>
               <p className='text-4xl font-semibold mt-4'>5,900.23</p>

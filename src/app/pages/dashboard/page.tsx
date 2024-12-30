@@ -22,11 +22,12 @@ const Dashboard = () => {
         </div>
 
         <p className="text-4xl mt-4 font-bold">Dashboard</p>
-          <div style={{
+        
+        <div style={{
             backgroundImage: "url('/star_wars_banner.webp')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-        }} className='rounded-lg'>
+        }} className='rounded-lg h-64 sm:h-80 lg:h-96'>
             <div className="mt-4 p-4">
               <p className='text-white text-3xl font-bold'>Node Wars is live! Join the fight to increase your rewards and</p> 
               <p className='text-white text-3xl font-bold'>prove your humanity</p> 
